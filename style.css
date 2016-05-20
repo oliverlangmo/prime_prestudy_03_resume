@@ -1,0 +1,79 @@
+body{
+	background-image:url("img/waves.png");
+	font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+/* Name */
+h1{
+	letter-spacing: 5px;
+}
+
+button{
+	cursor: pointer;
+}
+.start{
+	width: 600px;
+	margin: 0 auto;
+}
+.start button{
+	width: 100%;
+	background-color: #ccc;
+	letter-spacing: 3px;
+	border-radius: 4px;
+}
+
+
+.X-button{
+	position: absolute;
+	right: 320px;
+}
+.X-button button{
+	background: transparent;
+	border: 1px solid black;
+	border-radius: 4px;
+}
+/* main content*/
+#container{
+	width: 800px;
+	margin: 0 auto;
+	background-color: #F2F2F2;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	box-shadow: 10px 5px 5px #CBC9C9, -10px 5px 5px #CBC9C9;
+	display:none;
+}
+/* Address Phone and Email */
+.contact{
+	text-align: center;
+	letter-spacing: 1px;
+}
+.email{
+	text-decoration: none;
+}
+/* Skills close-up */
+.bullets{
+	width:100%;
+	margin: 0 auto;
+	line-height: 20px;
+
+}
+.bullets ol{
+	list-style-type: circle;
+	text-align: left;
+	margin: 0 auto;
+
+}
+.bullets > span{
+	width: 400px;
+	padding-left: 50px;
+	padding-top: 50px;
+}
+/* Work duties */
+.duties li{
+	list-style-type: circle;
+}
+/* Job Title */
+.position{
+	font-weight: bold;
+}
