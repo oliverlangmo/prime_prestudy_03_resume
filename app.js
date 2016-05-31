@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$('#ta-da').on('click', function(){
-		$("#container").slideDown();
-		$("#ta-da").hide();
+		$("#container").fadeIn();
+		$("#ta-da").fadeOut(1500);
 	});
 	$('.close').on('click', function(){
 		$('#container').hide();
-		$('#ta-da').show();
+		$('#ta-da').fadeIn(1500);
 	});
 });
